@@ -35,3 +35,4 @@ for i in range(N):
         print(x, ' ', end='')
     if i != N-1:
         print(' ')
+
