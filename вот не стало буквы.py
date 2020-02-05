@@ -7,7 +7,7 @@ def remove_letter(a):
         print(f'{"".join(line)} (не стало буквы {a})')
 
 
-line = list(input('Введите строку: '))
+line = list(input('Введите строку на кириллице: '))
 
 for i in line:
     for num_of_letter in range(int('410', 16), int('44F', 16)):
